@@ -9,6 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+ 
+    @IBOutlet var petName: UILabel!
+    @IBOutlet var attack: UILabel!
+    @IBOutlet var defense: UILabel!
+    @IBOutlet var health: UILabel!
+    @IBOutlet var speed: UILabel!
+    @IBOutlet var happiness: UILabel!
+    @IBOutlet var level: UILabel!
+    @IBOutlet var skillPoints: UILabel!
+    @IBOutlet var missingSteps: UILabel!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
